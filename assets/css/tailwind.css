@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-light {
+  --background: #f8f8f8;
+  --text: #313131;
+}
+
+.theme-dark {
+  --background: #313131;
+  --text: #f8f8f8;
+}
+
+body {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+}
+.hero {
+  position: relative;
+}
+
+@layer components {
+  .btn-cta {
+    @apply py-2 px-5 w-full text-white font-semibold rounded-md focus:ring focus:ring-indigo-300 from-indigo-600 to-blue-500 bg-gradient-to-tr hover:from-indigo-700 hover:to-blue-600 transition ease-in-out duration-200;
+  }
+}

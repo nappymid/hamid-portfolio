@@ -1,0 +1,26 @@
+// Define colors
+$primary-color: #f5874f;
+$secondary-color: #383838;
+$tertiary-color: #ffffff;
+$accent-color: #f2a359;
+$error-color: #ff4e42;
+
+// $test-color2:  #FF9800 ;
+// $test-color:  #607D8B ;
+// $test-color3:#8BC34A  ;
+
+// Define color variations
+$primary-color-light: lighten($primary-color, 10%);
+$primary-color-dark: darken($primary-color, 10%);
+
+$secondary-color-light: lighten($secondary-color, 10%);
+$secondary-color-dark: darken($secondary-color, 10%);
+
+$tertiary-color-light: lighten($tertiary-color, 10%);
+$tertiary-color-dark: darken($tertiary-color, 10%);
+
+$accent-color-light: lighten($accent-color, 10%);
+$accent-color-dark: darken($accent-color, 10%);
+
+$error-color-light: lighten($error-color, 10%);
+$error-color-dark: darken($error-color, 10%);
