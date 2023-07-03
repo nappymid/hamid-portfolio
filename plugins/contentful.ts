@@ -1,4 +1,5 @@
-import { createClient } from "contentful";
+// import { createClient } from "contentful";
+import contentful from "contentful";
 
 const config = {
   space: "v4y17nd2y030",
@@ -8,7 +9,7 @@ const config = {
 export default defineNuxtPlugin(() => {
   return {
     provide: {
-      client: createClient(config),
+      client: contentful.createClient(config),
     },
   };
 });
