@@ -73,7 +73,7 @@
           </div>
           <div class="w-auto hidden lg:block">
             <div class="inline-block">
-              <button class="btn-cta" type="button">Contact Me</button>
+              <a class="btn-cta" type="button" href="#contact">Contact Me</a>
             </div>
           </div>
           <label class="swap swap-rotate">

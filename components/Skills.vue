@@ -13,15 +13,22 @@
           Some of the things I've learnt
         </p>
       </div>
-      <div class="flex flex-wrap -m-4 text-center justify-items-center">
+      <div class="flex flex-wrap text-center justify-items-center">
         <div v-for="s in data" class="p-4 md:w-1/4 sm:w-1/2 w-full">
-          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <div
+            class="dark:bg-slate-500 border-2 border-gray-200 px-4 py-6 rounded-lg"
+          >
             <img
               :src="s.fields.imgUrl"
               v-if="s.fields.imgUrl"
-              class="h-12 mx-auto"
+              class="h-12 mx-auto mb-6"
               alt=""
             />
+            <div
+              class="text-indigo-500 dark:text-green-400 w-12 h-12 mb-3 inline-block mx-auto"
+              v-else-if="s.fields.svg"
+              v-html="s.fields.svg"
+            ></div>
             <svg
               fill="none"
               stroke="currentColor"

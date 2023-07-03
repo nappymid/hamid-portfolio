@@ -10,7 +10,9 @@
           </h1>
 
           <p class="max-w-xl mt-6">
-            Ask everything and I would love to hear from you
+            Feel free to reach out to me for any inquiries or collaborations.
+            I'm always ready to connect and explore new opportunities together.
+            <!-- Let's create something amazing! -->
           </p>
 
           <div class="mt-6 space-y-8 md:mt-8">
@@ -77,9 +79,9 @@
                 />
               </svg>
 
-              <span class="mx-2 text-white truncate w-72"
-                >hamid.elawad.dvo@gmail.com</span
-              >
+              <span class="mx-2 text-white truncate w-72">
+                hamid.elawad.dvo@gmail.com
+              </span>
             </p>
           </div>
 
