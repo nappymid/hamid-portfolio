@@ -13,7 +13,9 @@
             content.name.split(" ")[0]
           }}</span>
         </h1>
-        <p class="py-6 dark:text-white">Love to code</p>
+        <p class="py-6 dark:text-white">
+          and I am currently building this site XD
+        </p>
       </div>
       <img
         class="mask mask-hexagon max-w-sm rounded-lg shadow-2xl align-middle justify-center w-100"
